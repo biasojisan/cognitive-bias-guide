@@ -1,0 +1,1176 @@
+{
+  "id": "00000000-0000-0000-0000-000000000000",
+  "prevId": "",
+  "version": "6",
+  "dialect": "sqlite",
+  "tables": {
+    "theories": {
+      "name": "theories",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "established_year": {
+          "autoincrement": false,
+          "name": "established_year",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "methods": {
+      "name": "methods",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "purpose": {
+          "autoincrement": false,
+          "name": "purpose",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "task_base": {
+      "name": "task_base",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "flavors": {
+      "name": "flavors",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "academic_fields": {
+      "name": "academic_fields",
+      "columns": {
+        "id": {
+          "autoincrement": false,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "situations": {
+      "name": "situations",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "evidence_experiments": {
+      "name": "evidence_experiments",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "year": {
+          "autoincrement": false,
+          "name": "year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "leverage": {
+      "name": "leverage",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "title": {
+          "autoincrement": false,
+          "name": "title",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "cognitive_process": {
+      "name": "cognitive_process",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "parent_id": {
+          "autoincrement": false,
+          "name": "parent_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "cognitive_process_parent_id_cognitive_process_id_fk": {
+          "name": "cognitive_process_parent_id_cognitive_process_id_fk",
+          "tableFrom": "cognitive_process",
+          "tableTo": "cognitive_process",
+          "columnsFrom": [
+            "parent_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "codex": {
+      "name": "codex",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "parent_id": {
+          "autoincrement": false,
+          "name": "parent_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "codex_parent_id_codex_id_fk": {
+          "name": "codex_parent_id_codex_id_fk",
+          "tableFrom": "codex",
+          "tableTo": "codex",
+          "columnsFrom": [
+            "parent_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "biases": {
+      "name": "biases",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "name_en": {
+          "autoincrement": false,
+          "name": "name_en",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "definition": {
+          "autoincrement": false,
+          "name": "definition",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mechanism": {
+          "autoincrement": false,
+          "name": "mechanism",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "severity": {
+          "autoincrement": false,
+          "name": "severity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "codex_id": {
+          "autoincrement": false,
+          "name": "codex_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "task_base_id": {
+          "autoincrement": false,
+          "name": "task_base_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flavor_id": {
+          "autoincrement": false,
+          "name": "flavor_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "biases_codex_id_codex_id_fk": {
+          "name": "biases_codex_id_codex_id_fk",
+          "tableFrom": "biases",
+          "tableTo": "codex",
+          "columnsFrom": [
+            "codex_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "biases_task_base_id_task_base_id_fk": {
+          "name": "biases_task_base_id_task_base_id_fk",
+          "tableFrom": "biases",
+          "tableTo": "task_base",
+          "columnsFrom": [
+            "task_base_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "biases_flavor_id_flavors_id_fk": {
+          "name": "biases_flavor_id_flavors_id_fk",
+          "tableFrom": "biases",
+          "tableTo": "flavors",
+          "columnsFrom": [
+            "flavor_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "bias_cognitive_process": {
+      "name": "bias_cognitive_process",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "bias_id": {
+          "autoincrement": false,
+          "name": "bias_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cognitive_process_id": {
+          "autoincrement": false,
+          "name": "cognitive_process_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "bias_cognitive_process_cognitive_process_id_cognitive_process_id_fk": {
+          "name": "bias_cognitive_process_cognitive_process_id_cognitive_process_id_fk",
+          "tableFrom": "bias_cognitive_process",
+          "tableTo": "cognitive_process",
+          "columnsFrom": [
+            "cognitive_process_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "bias_cognitive_process_bias_id_biases_id_fk": {
+          "name": "bias_cognitive_process_bias_id_biases_id_fk",
+          "tableFrom": "bias_cognitive_process",
+          "tableTo": "biases",
+          "columnsFrom": [
+            "bias_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "bias_theory": {
+      "name": "bias_theory",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "bias_id": {
+          "autoincrement": false,
+          "name": "bias_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "theory_id": {
+          "autoincrement": false,
+          "name": "theory_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "bias_theory_theory_id_theories_id_fk": {
+          "name": "bias_theory_theory_id_theories_id_fk",
+          "tableFrom": "bias_theory",
+          "tableTo": "theories",
+          "columnsFrom": [
+            "theory_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "bias_theory_bias_id_biases_id_fk": {
+          "name": "bias_theory_bias_id_biases_id_fk",
+          "tableFrom": "bias_theory",
+          "tableTo": "biases",
+          "columnsFrom": [
+            "bias_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "theory_academic_field": {
+      "name": "theory_academic_field",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "theory_id": {
+          "autoincrement": false,
+          "name": "theory_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "academic_field_id": {
+          "autoincrement": false,
+          "name": "academic_field_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "theory_academic_field_academic_field_id_academic_fields_id_fk": {
+          "name": "theory_academic_field_academic_field_id_academic_fields_id_fk",
+          "tableFrom": "theory_academic_field",
+          "tableTo": "academic_fields",
+          "columnsFrom": [
+            "academic_field_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "theory_academic_field_theory_id_theories_id_fk": {
+          "name": "theory_academic_field_theory_id_theories_id_fk",
+          "tableFrom": "theory_academic_field",
+          "tableTo": "theories",
+          "columnsFrom": [
+            "theory_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "bias_method": {
+      "name": "bias_method",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "bias_id": {
+          "autoincrement": false,
+          "name": "bias_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "method_id": {
+          "autoincrement": false,
+          "name": "method_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "mitigation_strategy": {
+          "autoincrement": false,
+          "name": "mitigation_strategy",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "bias_method_method_id_methods_id_fk": {
+          "name": "bias_method_method_id_methods_id_fk",
+          "tableFrom": "bias_method",
+          "tableTo": "methods",
+          "columnsFrom": [
+            "method_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "bias_method_bias_id_biases_id_fk": {
+          "name": "bias_method_bias_id_biases_id_fk",
+          "tableFrom": "bias_method",
+          "tableTo": "biases",
+          "columnsFrom": [
+            "bias_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "method_category": {
+      "name": "method_category",
+      "columns": {
+        "id": {
+          "autoincrement": false,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "social_dynamics": {
+      "name": "social_dynamics",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "name_ja": {
+          "autoincrement": false,
+          "name": "name_ja",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "summary": {
+          "autoincrement": false,
+          "name": "summary",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "bias_situation": {
+      "name": "bias_situation",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "bias_id": {
+          "autoincrement": false,
+          "name": "bias_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "situation_id": {
+          "autoincrement": false,
+          "name": "situation_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "bias_situation_situation_id_situations_id_fk": {
+          "name": "bias_situation_situation_id_situations_id_fk",
+          "tableFrom": "bias_situation",
+          "tableTo": "situations",
+          "columnsFrom": [
+            "situation_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "bias_situation_bias_id_biases_id_fk": {
+          "name": "bias_situation_bias_id_biases_id_fk",
+          "tableFrom": "bias_situation",
+          "tableTo": "biases",
+          "columnsFrom": [
+            "bias_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "bias_social_dynamics": {
+      "name": "bias_social_dynamics",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "bias_id": {
+          "autoincrement": false,
+          "name": "bias_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "social_dynamics_id": {
+          "autoincrement": false,
+          "name": "social_dynamics_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "bias_social_dynamics_social_dynamics_id_social_dynamics_id_fk": {
+          "name": "bias_social_dynamics_social_dynamics_id_social_dynamics_id_fk",
+          "tableFrom": "bias_social_dynamics",
+          "tableTo": "social_dynamics",
+          "columnsFrom": [
+            "social_dynamics_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "bias_social_dynamics_bias_id_biases_id_fk": {
+          "name": "bias_social_dynamics_bias_id_biases_id_fk",
+          "tableFrom": "bias_social_dynamics",
+          "tableTo": "biases",
+          "columnsFrom": [
+            "bias_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "method_cognitive_process": {
+      "name": "method_cognitive_process",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "method_id": {
+          "autoincrement": false,
+          "name": "method_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "cognitive_process_id": {
+          "autoincrement": false,
+          "name": "cognitive_process_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "method_cognitive_process_cognitive_process_id_cognitive_process_id_fk": {
+          "name": "method_cognitive_process_cognitive_process_id_cognitive_process_id_fk",
+          "tableFrom": "method_cognitive_process",
+          "tableTo": "cognitive_process",
+          "columnsFrom": [
+            "cognitive_process_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "method_cognitive_process_method_id_methods_id_fk": {
+          "name": "method_cognitive_process_method_id_methods_id_fk",
+          "tableFrom": "method_cognitive_process",
+          "tableTo": "methods",
+          "columnsFrom": [
+            "method_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "method_situation": {
+      "name": "method_situation",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "method_id": {
+          "autoincrement": false,
+          "name": "method_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "situation_id": {
+          "autoincrement": false,
+          "name": "situation_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "description": {
+          "autoincrement": false,
+          "name": "description",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "method_situation_situation_id_situations_id_fk": {
+          "name": "method_situation_situation_id_situations_id_fk",
+          "tableFrom": "method_situation",
+          "tableTo": "situations",
+          "columnsFrom": [
+            "situation_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "method_situation_method_id_methods_id_fk": {
+          "name": "method_situation_method_id_methods_id_fk",
+          "tableFrom": "method_situation",
+          "tableTo": "methods",
+          "columnsFrom": [
+            "method_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    },
+    "method_social_dynamics": {
+      "name": "method_social_dynamics",
+      "columns": {
+        "id": {
+          "autoincrement": true,
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": false
+        },
+        "method_id": {
+          "autoincrement": false,
+          "name": "method_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "social_dynamics_id": {
+          "autoincrement": false,
+          "name": "social_dynamics_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "compositePrimaryKeys": {},
+      "indexes": {},
+      "foreignKeys": {
+        "method_social_dynamics_social_dynamics_id_social_dynamics_id_fk": {
+          "name": "method_social_dynamics_social_dynamics_id_social_dynamics_id_fk",
+          "tableFrom": "method_social_dynamics",
+          "tableTo": "social_dynamics",
+          "columnsFrom": [
+            "social_dynamics_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        },
+        "method_social_dynamics_method_id_methods_id_fk": {
+          "name": "method_social_dynamics_method_id_methods_id_fk",
+          "tableFrom": "method_social_dynamics",
+          "tableTo": "methods",
+          "columnsFrom": [
+            "method_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "no action",
+          "onUpdate": "no action"
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraints": {}
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
