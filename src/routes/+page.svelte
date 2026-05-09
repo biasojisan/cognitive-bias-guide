@@ -32,7 +32,7 @@
             バイアスと
         </div>
 
-        <img src="/images/hero.png" alt="ヒーローイラスト" class="block w-3xs h-auto">
+        <img src="/images/hero.webp" alt="ヒーローイラスト" class="block w-3xs h-auto">
 
         <!-- 右下：白いフチを2px追加 -->
         <div class="absolute bottom-0 right-0 p-4 font-bold text-5xl" 
@@ -60,43 +60,43 @@
 <section class="bg-white py-12 dark:bg-gray-800">
     <div class="mx-auto max-w-2xl px-4 text-center text-lg">
         <div class="my-8">
-            <img src="/images/march_of_progress.png" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
+            <img src="/images/march_of_progress.webp" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
             <div class="mt-4">
                 <ruby>私<rt>わたし</rt></ruby>たちは<ruby>厳<rt>きび</rt></ruby>しい<ruby>自然<rt>しぜん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>を、<ruby>生<rt>い</rt></ruby>き<ruby>抜<rt>ぬ</rt></ruby>いてきました。
             </div>
         </div>
         <div class="mt-20">
-            <img src="/images/set_a_trap.png" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
+            <img src="/images/set_a_trap.webp" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
             <div class="mt-4">
                 その<ruby>過程<rt>かてい</rt></ruby>で、「とても<ruby>便利<rt>べんり</rt></ruby>な<ruby>道具<rt>どうぐ</rt></ruby>」を<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>い</rt></ruby>れました。
             </div>
         </div>
         <div  class="mt-20">
-            <img src="/images/automatic_defense.png" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
+            <img src="/images/automatic_defense.webp" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
             <div class="mt-4">
                 <ruby>長<rt>なが</rt></ruby>い<ruby>年月<rt>ねんげつ</rt></ruby>をかけて、<ruby>無意識<rt>むいしき</rt></ruby>に<ruby>発動<rt>はつどう</rt></ruby>するようになりました。
             </div>
         </div>
         <div class="mt-20">
-            <img src="/images/automatic_defense2.png" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
+            <img src="/images/automatic_defense2.webp" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
             <div  class="mt-4">
                 しかし、<ruby>時<rt>とき</rt></ruby>として<ruby>自分<rt>じぶん</rt></ruby>や<ruby>周<rt>まわ</rt></ruby>りを、<ruby>傷<rt>きず</rt></ruby>つける<ruby>原因<rt>げんいん</rt></ruby>にもなってしまったのです。
             </div>
         </div>
         <div class="mt-20">
-            <img src="/images/icon-logo.png" alt="ヒーローイラスト" class="block w-sm h-auto mx-auto" />
+            <img src="/images/icon-logo.webp" alt="ヒーローイラスト" class="block w-sm h-auto mx-auto" />
             <div>
                 それが<strong><ruby>認知<rt>にんち</rt></ruby>バイアス</strong>です。
             </div>
         </div>
         <div class="mt-20">
-            <img src="/images/brain_flower.png" alt="ヒーローイラスト" class="block w-sm h-auto mx-auto" />
+            <img src="/images/brain_flower.webp" alt="ヒーローイラスト" class="block w-sm h-auto mx-auto" />
             <div>
                 <ruby>時間<rt>じかん</rt></ruby>をかけて<ruby>刻<rt>きざ</rt></ruby>み<ruby>込<rt>こ</rt></ruby>まれたこの<ruby>本能<rt>ほんのう</rt></ruby>を、<ruby>消<rt>け</rt></ruby>し<ruby>去<rt>さ</rt></ruby>ることはできません。
             </div>
         </div>
         <div class="mt-20">
-            <img src="/images/hero.png" alt="ヒーローイラスト" class="block w-xs h-auto mx-auto" />
+            <img src="/images/hero.webp" alt="ヒーローイラスト" class="block w-xs h-auto mx-auto" />
             <div>
                 <ruby>傷<rt>きず</rt></ruby>つくことを<ruby>減<rt>へ</rt></ruby>らし、<ruby>心穏<rt>こころおだ</rt></ruby>やかに、<ruby>共<rt>とも</rt></ruby>に<ruby>生<rt>い</rt></ruby>きていく。<br>
                 このサイトが、そのためのヒントになれば<ruby>幸<rt>さいわ</rt></ruby>いです。
@@ -109,7 +109,7 @@
 
 <section class="py-16">
     <div class="mx-auto max-w-screen-xl px-4">
-        <img src="/images/teaching.png" alt="黒板の前で認知バイアスの授業をする女の子の画像" class="block w-2xl h-auto mx-auto" />
+        <img src="/images/teaching.webp" alt="黒板の前で認知バイアスの授業をする女の子の画像" class="block w-2xl h-auto mx-auto" />
         
         <div class="flex justify-center mt-4">
             <Button href="/bias" color="blue"><ruby>認知<rt>にんち</rt></ruby>バイアスとは</Button>

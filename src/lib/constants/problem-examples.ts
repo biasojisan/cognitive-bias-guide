@@ -15,7 +15,7 @@ export const problemExamples = [
             '<ruby>反<rt>はん</rt></ruby><ruby>対<rt>たい</rt></ruby>する<ruby>家<rt>か</rt></ruby><ruby>族<rt>ぞく</rt></ruby>や<ruby>友<rt>ゆう</rt></ruby><ruby>人<rt>じん</rt></ruby>を「<ruby>騙<rt>だま</rt></ruby>されている」と<ruby>見<rt>み</rt></ruby><ruby>下<rt>くだ</rt></ruby>し、<ruby>同<rt>おな</rt></ruby>じ<ruby>考<rt>かんが</rt></ruby>えを<ruby>持<rt>も</rt></ruby>つ<ruby>人<rt>ひと</rt></ruby>とだけ<ruby>繋<rt>つな</rt></ruby>がる。',
             '<ruby>生<rt>せい</rt></ruby><ruby>活<rt>かつ</rt></ruby>が<ruby>破<rt>は</rt></ruby><ruby>綻<rt>たん</rt></ruby>しても「<ruby>間<rt>ま</rt></ruby><ruby>違<rt>ちが</rt></ruby>いを<ruby>認<rt>みと</rt></ruby>めたくない」ため、<ruby>悪<rt>わる</rt></ruby>いことはすべて「<ruby>敵<rt>てき</rt></ruby>のせい」にして<ruby>現<rt>げん</rt></ruby><ruby>実<rt>じつ</rt></ruby><ruby>逃<rt>とう</rt></ruby><ruby>避<rt>ひ</rt></ruby>する。'
         ],
-        img: '/images/conspiracy_theory.png',
+        img: '/images/conspiracy_theory.webp',
         alt: '家族や友達が壁の外から呼びかけるが、壁の中でスマホを見る女の子の画像'
     },
     {
@@ -27,7 +27,7 @@ export const problemExamples = [
             '<ruby>周<rt>まわ</rt></ruby>りの<ruby>心<rt>しん</rt></ruby><ruby>配<rt>ぱい</rt></ruby>を「うるさい<ruby>攻<rt>こう</rt></ruby><ruby>撃<rt>げき</rt></ruby>」と<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>り、<ruby>隠<rt>かく</rt></ruby>れて<ruby>借<rt>しゃっ</rt></ruby><ruby>金<rt>きん</rt></ruby>をしてまでギャンブルを<ruby>続<rt>つづ</rt></ruby>ける。',
             '<ruby>失<rt>うしな</rt></ruby>ったものが<ruby>大<rt>おお</rt></ruby>きすぎて、さらに<ruby>大<rt>おお</rt></ruby>きなリスクを<ruby>負<rt>お</rt></ruby>って<ruby>破<rt>は</rt></ruby><ruby>滅<rt>めつ</rt></ruby>へと<ruby>突<rt>つ</rt></ruby>き<ruby>進<rt>すす</rt></ruby>んでしまう。'
         ],
-        img: '/images/gambling.png',
+        img: '/images/gambling.webp',
         alt: '針の罠の中にある宝箱を取ろうと近づく女の子の画像'
     },
     {
@@ -39,7 +39,7 @@ export const problemExamples = [
             '<ruby>周<rt>しゅう</rt></ruby><ruby>囲<rt>い</rt></ruby>の<ruby>励<rt>はげ</rt></ruby>ましすら「<ruby>哀<rt>あわ</rt></ruby>れみ」や「<ruby>嘘<rt>うそ</rt></ruby>」だとひねくれて<ruby>受<rt>う</rt></ruby>け<ruby>取<rt>と</rt></ruby>り、<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>の<ruby>殻<rt>から</rt></ruby>に<ruby>閉<rt>と</rt></ruby>じこもる。',
             '「<ruby>自<rt>じ</rt></ruby><ruby>分<rt>ぶん</rt></ruby>は<ruby>無<rt>む</rt></ruby><ruby>能<rt>のう</rt></ruby>だ」と<ruby>極<rt>きょく</rt></ruby><ruby>端<rt>たん</rt></ruby>な<ruby>結<rt>けつ</rt></ruby><ruby>論<rt>ろん</rt></ruby>を<ruby>出<rt>だ</rt></ruby>し、<ruby>心<rt>しん</rt></ruby><ruby>身<rt>しん</rt></ruby>ともに<ruby>追<rt>お</rt></ruby>い<ruby>込<rt>こ</rt></ruby>まれて<ruby>冷<rt>れい</rt></ruby><ruby>静<rt>せい</rt></ruby>な<ruby>判<rt>はん</rt></ruby><ruby>断<rt>だん</rt></ruby>ができなくなる。'
         ],
-        img: '/images/depression.png',
+        img: '/images/depression.webp',
         alt: 'たくさんの目と指に刺されている女の子の画像'
     }
 ]

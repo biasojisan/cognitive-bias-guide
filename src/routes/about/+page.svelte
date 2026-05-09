@@ -51,7 +51,7 @@ import type { PageProps } from './$types';
                 <ruby>本<rt>ほん</rt></ruby>サイトに<ruby>書<rt>か</rt></ruby>いてあることを<ruby>鵜呑<rt>うの</rt></ruby>みにせず、<ruby>疑問<rt>ぎもん</rt></ruby>に<ruby>思<rt>おも</rt></ruby>ったことは<ruby>自分<rt>じぶん</rt></ruby>で<ruby>調<rt>しら</rt></ruby>べてみましょう。
             </p>
         </div>
-        <img src="/images/question.png" alt="女の子が本を読んで疑問を抱いている画像" />
+        <img src="/images/question.webp" alt="女の子が本を読んで疑問を抱いている画像" />
     </section>
 
     <SectionBreak />
@@ -71,7 +71,7 @@ import type { PageProps } from './$types';
             <span class="w-1.5 h-6 bg-pink-500 mr-2 rounded-full"></span>
             <ruby>運営者<rt>うんえいしゃ</rt></ruby>
         </h2>
-        <img src="/images/bias_ojisan.png" alt="バイアスおじさんの画像" class="w-3xs h-auto mx-auto" />
+        <img src="/images/bias_ojisan.webp" alt="バイアスおじさんの画像" class="w-3xs h-auto mx-auto" />
         
         <!-- sm:grid-cols-2 を削除しました -->
         <div class="grid gap-y-3 md:text-base">
@@ -140,7 +140,7 @@ import type { PageProps } from './$types';
                     4つのAIに<span class="font-semibold text-indigo-700">「<ruby>人<rt>ひと</rt></ruby>として<ruby>生<rt>う</rt></ruby>まれたからには<ruby>知<rt>し</rt></ruby>っておくべきことは？」</span>と<ruby>質問<rt>しつもん</rt></ruby>したところ、<ruby>総合<rt>そうごう</rt></ruby>1<ruby>位<rt>い</rt></ruby>が<span class="font-bold text-red-500">「<ruby>認知<rt>にんち</rt></ruby>バイアスとその<ruby>対策<rt>たいさく</rt></ruby><ruby>法<rt>ほう</rt></ruby>」</span>だった。
                 </div>
             </div>
-            <img src="/images/ask.png" alt="女の子が4つのAIに質問している画像" />
+            <img src="/images/ask.webp" alt="女の子が4つのAIに質問している画像" />
         </div>
 
         <div class="relative border-l-2 border-purple-400 pb-6 pl-6">
@@ -193,7 +193,7 @@ import type { PageProps } from './$types';
                     <ruby>暇<rt>ひま</rt></ruby>だしとりあえず<ruby>作<rt>つく</rt></ruby>ってみて、<ruby>幸<rt>しあわ</rt></ruby>せになれるか<ruby>検証<rt>けんしょう</rt></ruby>してみよっと♪←<span class="italic font-bold text-red-500">いまココ</span>
                 </div>
             </div>
-            <img src="/images/play_blocks.png" alt="積み木で遊ぶ女の子の画像" />
+            <img src="/images/play_blocks.webp" alt="積み木で遊ぶ女の子の画像" />
         </div>
     </section>
 

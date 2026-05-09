@@ -20,7 +20,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>1<ruby>段階<rt>だんかい</rt></ruby>：<ruby>非<rt>ひ</rt></ruby><ruby>生命<rt>せいめい</rt></ruby>と<ruby>生命<rt>せいめい</rt></ruby>の<ruby>境界<rt>きょうかい</rt></ruby> ─「<ruby>偏<rt>かたよ</rt></ruby>り」と「<ruby>死<rt>し</rt></ruby>」の<ruby>誕生<rt>たんじょう</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby>40<ruby>億<rt>おく</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>（<ruby>冥王代<rt>めいおうだい</rt></ruby>〜<ruby>太古代<rt>たいこだい</rt></ruby><ruby>初期<rt>しょき</rt></ruby>）',
         summary: '<ruby>地球<rt>ちきゅう</rt></ruby>が<ruby>誕生<rt>たんじょう</rt></ruby>して<ruby>間<rt>ま</rt></ruby>もない、まだ「<ruby>生<rt>い</rt></ruby>き<ruby>物<rt>もの</rt></ruby>」がいなかった<ruby>時代<rt>じだい</rt></ruby>です。<ruby>熱<rt>あつ</rt></ruby>い<ruby>海<rt>うみ</rt></ruby>の<ruby>中<rt>なか</rt></ruby>でバラバラだった<ruby>分子<rt>ぶんし</rt></ruby>が、<ruby>偶然<rt>ぐうぜん</rt></ruby><ruby>集<rt>あつ</rt></ruby>まって「<ruby>自分<rt>じぶん</rt></ruby>をコピーする<ruby>仕組<rt>しく</rt></ruby>み」や「<ruby>膜<rt>まく</rt></ruby>の<ruby>袋<rt>ふくろ</rt></ruby>」のような<ruby>構造<rt>こうぞう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>ったと<ruby>考<rt>かんが</rt></ruby>えられています。ここからが、ただの<ruby>物質<rt>ぶっしつ</rt></ruby>が「<ruby>生<rt>い</rt></ruby>きているように<ruby>振<rt>ふ</rt></ruby>る<ruby>舞<rt>ま</rt></ruby>う<ruby>存在<rt>そんざい</rt></ruby>」へと<ruby>変<rt>か</rt></ruby>わり<ruby>始<rt>はじ</rt></ruby>めた、<ruby>命<rt>いのち</rt></ruby>のスタート<ruby>地点<rt>ちてん</rt></ruby>です。',
-        img: '/images/rna.png',
+        img: '/images/rna.webp',
         alt: 'RNAの一本鎖の画像',
         functions: [
             {
@@ -45,7 +45,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>2<ruby>段階<rt>だんかい</rt></ruby>：<ruby>原始的<rt>げんしてき</rt></ruby>な<ruby>感覚<rt>かんかく</rt></ruby>と「<ruby>記憶<rt>きおく</rt></ruby>なき<ruby>学習<rt>がくしゅう</rt></ruby>」 ─<ruby>絶対評価<rt>ぜったいひょうか</rt></ruby>の<ruby>放棄<rt>ほうき</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby>35<ruby>億<rt>おく</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>〜（<ruby>原核生物<rt>げんかくせいぶつ</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby><ruby>以降<rt>いこう</rt></ruby>）',
         summary: '<ruby>単細胞生物<rt>たんさいぼうせいぶつ</rt></ruby>（バクテリアなど）が<ruby>登場<rt>とうじょう</rt></ruby>し、エサを<ruby>探<rt>さが</rt></ruby>して<ruby>移動<rt>いどう</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>めた<ruby>時代<rt>じだい</rt></ruby>です。この<ruby>頃<rt>ころ</rt></ruby>の<ruby>生命<rt>せいめい</rt></ruby>は「<ruby>今<rt>いま</rt></ruby>、<ruby>状況<rt>じょうきょう</rt></ruby>が<ruby>良<rt>よ</rt></ruby>くなっているか？」という<ruby>変化<rt>へんか</rt></ruby>に<ruby>注目<rt>ちゅうもく</rt></ruby>する<ruby>仕組<rt>しく</rt></ruby>みを<ruby>手<rt>て</rt></ruby>に<ruby>入<rt>い</rt></ruby>れました。これが、のちに<ruby>私<rt>わたし</rt></ruby>たちが「<ruby>全体<rt>ぜんたい</rt></ruby>を<ruby>見<rt>み</rt></ruby>ずに、<ruby>一部<rt>いちぶ</rt></ruby>の<ruby>差<rt>さ</rt></ruby>だけに<ruby>反応<rt>はんのう</rt></ruby>してしまう」ルーツになります。',
-        img: '/images/unicellular_organism.jpeg',
+        img: '/images/unicellular_organism.webp',
         alt: 'いろいろな単細胞生物のイラストの画像',
         functions: [
             {
@@ -78,7 +78,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>3<ruby>段階<rt>だんかい</rt></ruby>：<ruby>神経系<rt>しんけいけい</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby>と<ruby>予測<rt>よそく</rt></ruby>エンジン ─<ruby>世界<rt>せかい</rt></ruby>を<ruby>結<rt>むす</rt></ruby>びつける<ruby>魔法<rt>まほう</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby>6<ruby>億<rt>おく</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>〜（エディアカラ<ruby>紀<rt>き</rt></ruby>〜カンブリア<ruby>紀<rt>き</rt></ruby> / <ruby>多細胞動物<rt>たさいぼうどうぶつ</rt></ruby>の<ruby>出現<rt>しゅつげん</rt></ruby>）',
         summary: 'ヒドラやプラナリアのように、<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>体<rt>からだ</rt></ruby>を<ruby>持<rt>も</rt></ruby>つ<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>登場<rt>とうじょう</rt></ruby>した<ruby>時代<rt>じだい</rt></ruby>です。<ruby>全身<rt>ぜんしん</rt></ruby>に<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>伝<rt>つた</rt></ruby>える「<ruby>神経<rt>しんけい</rt></ruby>」ができたことで、バラバラだった<ruby>細胞<rt>さいぼう</rt></ruby>がチームとして<ruby>動<rt>うご</rt></ruby>けるようになりました。「もし〜なら、こうなる」という<ruby>未来<rt>みらい</rt></ruby>の<ruby>予測<rt>よそく</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めたのもこの<ruby>頃<rt>ころ</rt></ruby>です。',
-        img: '/images/planarian.jpeg',
+        img: '/images/planarian.webp',
         alt: 'ヒドラとプラナリアのイラストの画像',
         functions: [
             {
@@ -106,7 +106,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>4<ruby>段階<rt>だんかい</rt></ruby>：<ruby>定位反射<rt>ていいはんしゃ</rt></ruby>と<ruby>注意<rt>ちゅうい</rt></ruby>の<ruby>資源化<rt>しげんか</rt></ruby> ─<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>取捨選択<rt>しゅしゃせんたく</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby>5<ruby>億<rt>おく</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>〜（<ruby>脊椎動物<rt>せきついどうぶつ</rt></ruby>の<ruby>進化初期<rt>しんかしょき</rt></ruby>）',
         summary: '<ruby>魚<rt>さかな</rt></ruby>の<ruby>先祖<rt>せんぞ</rt></ruby>のような<ruby>背骨<rt>せぼね</rt></ruby>のある<ruby>動物<rt>どうぶつ</rt></ruby>が<ruby>登場<rt>とうじょう</rt></ruby>し、<ruby>目<rt>め</rt></ruby>や<ruby>耳<rt>みみ</rt></ruby>が<ruby>発達<rt>はったつ</rt></ruby>した<ruby>時代<rt>じだい</rt></ruby>です。<ruby>入<rt>はい</rt></ruby>ってくる<ruby>情報<rt>じょうほう</rt></ruby>があまりに<ruby>多<rt>おお</rt></ruby>すぎたため、<ruby>脳<rt>のう</rt></ruby>は「すべてを<ruby>平等<rt>びょうどう</rt></ruby>に<ruby>見<rt>み</rt></ruby>る」ことをやめました。「<ruby>大事<rt>だいじ</rt></ruby>そうなものだけをえこひいきして<ruby>見<rt>み</rt></ruby>る」という、<ruby>情報<rt>じょうほう</rt></ruby>の<ruby>節約術<rt>せつやくじゅつ</rt></ruby>を<ruby>身<rt>み</rt></ruby>につけたのです。',
-        img: '/images/sacabambaspis.jpeg',
+        img: '/images/sacabambaspis.webp',
         alt: 'サカバンバスピスのイラストの画像',
         functions: [
             {
@@ -133,7 +133,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>5<ruby>段階<rt>だんかい</rt></ruby>：<ruby>感情<rt>かんじょう</rt></ruby>プロトタイプと「<ruby>身体予算<rt>しんたいよさん</rt></ruby>」<ruby>管理<rt>かんり</rt></ruby> ─<ruby>損失回避<rt>そんしつかいひ</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby>5<ruby>億<rt>おく</rt></ruby>〜4<ruby>億<rt>おく</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>（<ruby>無顎類<rt>むがくるい</rt></ruby>〜<ruby>初期魚類<rt>しょきぎょるい</rt></ruby>の<ruby>進化<rt>しんか</rt></ruby>）',
         summary: '<ruby>脊椎動物<rt>せきついどうぶつ</rt></ruby>がより<ruby>高度<rt>こうど</rt></ruby>に<ruby>進化<rt>しんか</rt></ruby>し、<ruby>体内<rt>たいない</rt></ruby>のエネルギー<ruby>管理<rt>かんり</rt></ruby>が<ruby>複雑<rt>ふくざつ</rt></ruby>になった<ruby>時代<rt>じだい</rt></ruby>です。<ruby>脳<rt>のう</rt></ruby>は「どれくらい<ruby>得<rt>とく</rt></ruby>したか」や「どれくらい<ruby>損<rt>そん</rt></ruby>をしそうか」を<ruby>計算<rt>けいさん</rt></ruby>するようになり、<ruby>特<rt>とく</rt></ruby>に「<ruby>失<rt>うしな</rt></ruby>うこと」を<ruby>極端<rt>きょくたん</rt></ruby>に<ruby>怖<rt>こわ</rt></ruby>がるプログラムが<ruby>書<rt>か</rt></ruby>き<ruby>込<rt>こ</rt></ruby>まれました。',
-        img: '/images/dunkleosteus.jpeg',
+        img: '/images/dunkleosteus.webp',
         alt: 'ダンクルオステウスのイラストの画像',
         functions: [
             {
@@ -168,7 +168,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>6<ruby>段階<rt>だんかい</rt></ruby>：<ruby>類推<rt>るいすい</rt></ruby>（アナロジー）とパターンの<ruby>一般化<rt>いっぱんか</rt></ruby> ─<ruby>世界<rt>せかい</rt></ruby>をカテゴリ<ruby>化<rt>か</rt></ruby>する<ruby>脳<rt>のう</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby>2<ruby>億<rt>おく</rt></ruby><ruby>年<rt>ねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>〜（<ruby>哺乳類<rt>ほにゅうるい</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby>と<ruby>大脳皮質<rt>だいのうひしつ</rt></ruby>の<ruby>拡大<rt>かくだい</rt></ruby>）',
         summary: '<ruby>哺乳類<rt>ほにゅうるい</rt></ruby>が<ruby>登場<rt>とうじょう</rt></ruby>し、<ruby>脳<rt>のう</rt></ruby>の<ruby>表面<rt>ひょうめん</rt></ruby>にある「<ruby>大脳皮質<rt>だいのうひしつ</rt></ruby>」が<ruby>大<rt>おお</rt></ruby>きくなった<ruby>時代<rt>じだい</rt></ruby>です。バラバラの<ruby>出来事<rt>できごと</rt></ruby>を「これとあれは<ruby>似<rt>に</rt></ruby>ている」とまとめて<ruby>覚<rt>おぼ</rt></ruby>えることで、<ruby>初<rt>はじ</rt></ruby>めて<ruby>見<rt>み</rt></ruby>る<ruby>状況<rt>じょうきょう</rt></ruby>でも「たぶんこうなるだろう」と<ruby>一瞬<rt>いっしゅん</rt></ruby>で<ruby>予測<rt>よそく</rt></ruby>ができるようになりました。',
-        img: '/images/adelobasileus.jpeg',
+        img: '/images/adelobasileus.webp',
         alt: 'アデロバシレウスのイラストの画像',
         functions: [
             {
@@ -197,7 +197,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>7<ruby>段階<rt>だんかい</rt></ruby>：<ruby>社会性<rt>しゃかいせい</rt></ruby>の<ruby>爆発<rt>ばくはつ</rt></ruby> ─<ruby>裏切<rt>うらぎ</rt></ruby>り<ruby>者検知<rt>ものけんち</rt></ruby>と<ruby>言語<rt>げんご</rt></ruby>による<ruby>自己正当化<rt>じこせいとうか</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby><ruby>数千万年<rt>すうせんまんねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>〜<ruby>数十万年<rt>すうじゅうまんねん</rt></ruby><ruby>前<rt>まえ</rt></ruby>（<ruby>霊長類<rt>れいちょうるい</rt></ruby>〜<ruby>現生人類<rt>げんせいじんるい</rt></ruby>の<ruby>進化<rt>しんか</rt></ruby>）',
         summary: 'サルからヒトへと<ruby>進化<rt>しんか</rt></ruby>し、<ruby>大<rt>おお</rt></ruby>きなグループで<ruby>生活<rt>せいかつ</rt></ruby>を<ruby>始<rt>はじ</rt></ruby>めた<ruby>時代<rt>じだい</rt></ruby>です。<ruby>仲間<rt>なかま</rt></ruby>と<ruby>協力<rt>きょうりょく</rt></ruby>する<ruby>一方<rt>いっぽう</rt></ruby>で、「<ruby>自分<rt>じぶん</rt></ruby>だけズルをする<ruby>奴<rt>やつ</rt></ruby>」を<ruby>見抜<rt>みぬ</rt></ruby>いたり、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>失敗<rt>しっぱい</rt></ruby>を<ruby>仲間<rt>なかま</rt></ruby>に<ruby>責<rt>せ</rt></ruby>められないよう「<ruby>言<rt>い</rt></ruby>い<ruby>訳<rt>わけ</rt></ruby>」をしたりする<ruby>必要<rt>ひつよう</rt></ruby>が<ruby>出<rt>で</rt></ruby>てきました。これが、<ruby>対人関係<rt>たいじんかんけい</rt></ruby>の<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>思<rt>おも</rt></ruby>い<ruby>込<rt>こ</rt></ruby>みを<ruby>生<rt>う</rt></ruby>みました。',
-        img: '/images/australopithecus.jpeg',
+        img: '/images/australopithecus.webp',
         alt: '男女のアウストラロピテクスのイラストの画像',
         functions: [
             {
@@ -225,7 +225,7 @@ export const stages: TimelineStage[] = [
         title: '<ruby>第<rt>だい</rt></ruby>8<ruby>段階<rt>だんかい</rt></ruby>：<ruby>現代人<rt>げんだいじん</rt></ruby>の<ruby>認知<rt>にんち</rt></ruby>バイアス ─<ruby>生存戦略<rt>せいぞんせんりゃく</rt></ruby>の<ruby>化石<rt>かせき</rt></ruby>の<ruby>顕在化<rt>けんざいか</rt></ruby>',
         period: '<ruby>約<rt>やく</rt></ruby><ruby>数万年前<rt>すうまんねんまえ</rt></ruby>〜<ruby>現代<rt>げんだい</rt></ruby>（<ruby>文明<rt>ぶんめい</rt></ruby>の<ruby>誕生<rt>たんじょう</rt></ruby><ruby>以降<rt>いこう</rt></ruby>）',
         summary: '<ruby>文明<rt>ぶんめい</rt></ruby>が<ruby>発達<rt>はったつ</rt></ruby>し、<ruby>生活環境<rt>せいかつかんきょう</rt></ruby>がガラリと<ruby>変<rt>か</rt></ruby>わった<ruby>現代<rt>げんだい</rt></ruby>です。<ruby>私<rt>わたし</rt></ruby>たちの<ruby>脳<rt>のう</rt></ruby>は<ruby>今<rt>いま</rt></ruby>も「サバンナで<ruby>生<rt>い</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>るための<ruby>設定<rt>せってい</rt></ruby>」のまま、<ruby>情報<rt>じょうほう</rt></ruby>のあふれる<ruby>現代社会<rt>げんだいしゃかい</rt></ruby>を<ruby>生<rt>い</rt></ruby>きています。かつて<ruby>命<rt>いのち</rt></ruby>を<ruby>守<rt>まも</rt></ruby>るために<ruby>必要<rt>ひつよう</rt></ruby>だった「<ruby>工夫<rt>くふう</rt></ruby>」が、<ruby>今<rt>いま</rt></ruby>では「<ruby>判断<rt>はんだん</rt></ruby>ミス（バイアス）」として<ruby>目立<rt>めだ</rt></ruby>つようになりました。',
-        img: '/images/boy_girl.png',
+        img: '/images/boy_girl.webp',
         alt: '男の子と女の子のイラストの画像',
         functions: [
             {

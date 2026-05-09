@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href="/images/icon-logo.png" />
+	<link rel="icon" href="/images/icon-logo.webp" />
 </svelte:head>
 
 <header>
@@ -15,7 +15,7 @@
 		fluid
 	>
 		<NavBrand href="/">
-			<img src="/images/icon-logo.png" class="me-3 h-6" alt="Logo" />
+			<img src="/images/icon-logo.webp" class="me-3 h-6" alt="Logo" />
 			<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
 				<ruby>認知<rt>にんち</rt></ruby>バイアス<ruby>非公式<rt>ひこうしき</rt></ruby><ruby>図鑑<rt>ずかん</rt></ruby>
 			</span>
