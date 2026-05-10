@@ -1,5 +1,8 @@
 import { db } from '$lib/server/db';
 import type { RequestHandler } from '@sveltejs/kit';
+import type { EntryGenerator } from '../bias/[id]/$types';
+
+export const prerender = true;
 
 export const GET: RequestHandler = async () => {
     // 1. DBから公開されている全バイアスのIDのみを取得
