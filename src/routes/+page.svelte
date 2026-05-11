@@ -5,16 +5,36 @@
 	import type { PageProps } from './$types';
 	import BiasCard from '$lib/components/BiasCard.svelte';
 	import SectionBreak from '$lib/components/SectionBreak.svelte';
+	import { SITE_NAME, DOMAIN } from '$lib/constants/common-metadata';
 
     let { data }: PageProps = $props();
 
     let bigFour = $derived(data.bigFour);
 
+    // OPG設定
+    const title = `${SITE_NAME}`;
+    const description = `認知バイアス非公式図鑑のメインページです。認知バイアスの基礎知識から、日常生活に潜むバイアスの一覧まで分かりやすく解説。自分の思考のクセを理解し、より良い意思決定に役立てましょう。`;
+    const ogpUrl = `${DOMAIN}`;
+    const ogpImage = `${DOMAIN}/images/hero.webp`;
+
 </script>
 
 <svelte:head>
-    <title>認知バイアス非公式図鑑</title>
-    <meta name="description" content="認知バイアス非公式図鑑のメインページです。認知バイアスの基礎知識から、日常生活に潜むバイアスの一覧まで分かりやすく解説。自分の思考のクセを理解し、より良い意思決定に役立てましょう。" />
+    <title>{title}</title>
+	<meta name="description" content={description} />
+
+	<!-- OGPの基本設定-->
+	<meta property="og:type" content="article" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogpImage} />
+    <meta property="og:url" content={ogpUrl} />
+
+	<!-- X (Twitter) -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogpImage} />
 </svelte:head>
 
 <!-- ヒーローセクション -->

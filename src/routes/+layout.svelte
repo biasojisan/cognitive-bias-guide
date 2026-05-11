@@ -41,5 +41,6 @@
 		<FooterLink href="/#list">バイアス<ruby>四天王<rt>してんのう</rt></ruby></FooterLink>
 		<FooterLink href="/about">このサイトについて</FooterLink>
 		<FooterLink href="/about#disclaimer"><ruby>免責事項<rt>めんせきじこう</rt></ruby></FooterLink>
+		<FooterLink href="/about#privacy-policy">プライバシーポリシー</FooterLink>
 	</FooterLinkGroup>
 </Footer>

@@ -5,6 +5,7 @@ import SummaryCard from '$lib/components/SummaryCard.svelte';
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
 	import { stages } from '$lib/constants/bias-evolution-timeline';
 	import { biasMeasures } from '$lib/constants/bias-measures';
+	import { SITE_NAME, DOMAIN } from '$lib/constants/common-metadata';
 	import { problemExamples, viciousCycleStageLabels } from '$lib/constants/problem-examples';
 import type { PageProps } from './$types';
 	import { Badge, Accordion, AccordionItem, Tabs, TabItem, Button } from 'flowbite-svelte';
@@ -22,11 +23,30 @@ import type { PageProps } from './$types';
 		type: {link:"qa-types", title:"<ruby>認知<rt>にんち</rt></ruby>バイアスって100<ruby>種類<rt>しゅるい</rt></ruby><ruby>以上<rt>いじょう</rt></ruby>あるってホント？"},
 		evolution: {link:"qa-evolution", title:"<ruby>本<rt>ほん</rt>当<rt>とう</rt></ruby>に<ruby>生<rt>せい</rt>存<rt>ぞん</rt></ruby>に<ruby>有<rt>ゆう</rt>利<rt>り</rt></ruby>だったの？"},
 	} as const;
+
+	// OPG設定
+    const title = `認知バイアスとは | ${SITE_NAME}`;
+    const description = `認知バイアスの正体や、なぜ人が思い込みに左右されるのかを初心者向けに分かりやすく解説します。バイアスの問題点や、生存戦略としての背景、日常生活で防ぐための具体的な対策まで、思考の罠から抜け出すヒントが満載です。`;
+    const ogpUrl = `${DOMAIN}`;
+    const ogpImage = `${DOMAIN}/images/teaching.webp`;
 </script>
 
 <svelte:head>
-  	<title>認知バイアスとは | 認知バイアス非公式図鑑</title>
-	<meta name="description" content="認知バイアスの正体や、なぜ人が思い込みに左右されるのかを初心者向けに分かりやすく解説します。バイアスの問題点や、生存戦略としての背景、日常生活で防ぐための具体的な対策まで、思考の罠から抜け出すヒントが満載です。" />
+  	<title>{title}</title>
+	<meta name="description" content={description} />
+
+	<!-- OGPの基本設定-->
+	<meta property="og:type" content="article" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogpImage} />
+    <meta property="og:url" content={ogpUrl} />
+
+	<!-- X (Twitter) -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogpImage} />
 </svelte:head>
 
 {#snippet sectionTitle(title:string, tag = 'h2')}
