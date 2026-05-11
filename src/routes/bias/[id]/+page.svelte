@@ -7,6 +7,7 @@
 	import TableOfContents from '$lib/components/TableOfContents.svelte';
 	import TgModel from '$lib/components/TgModel.svelte';
 	import { EVALUATION_LIST, X_AXIS_METADATA, Y_AXIS_METADATA } from '$lib/constants/chart-metadata';
+	import { DOMAIN, SITE_NAME } from '$lib/constants/common-metadata';
 	import { decorateParagraphs, stripRubyTags } from '$lib/utils/text';
 	import type { PageProps } from './$types';
 	import {
@@ -35,11 +36,31 @@
 		theory: { link: 'theory', title: '<ruby>理論<rt>りろん</rt></ruby>と<ruby>技法<rt>ぎほう</rt></ruby>' },
 		bias: { link: 'bias', title: 'バイアス<ruby>四天王<rt>してんのう</rt></ruby>' }
 	 } as const;
+
+	 // OPG設定
+	 const title = `${stripRubyTags(data.bias.nameJa)} | ${SITE_NAME}`;
+	 const description = `${data.bias.nameJa}の正体やメカニズムを詳しく解説。日常生活での「あるある」から具体的な活用術、歴史、関連する理論まで網羅しています。この思考のクセを理解して、より賢い判断やコミュニケーションに役立てましょう。`;
+	 const ogpUrl = `${DOMAIN}/bias/${data.bias.id}`;
+	 const ogpImage = `${DOMAIN}/images/${data.bias.thumbnail}`;
+
 </script>
 
 <svelte:head>
-  	<title>{stripRubyTags(data.bias.nameJa)} | 認知バイアス非公式図鑑</title>
-	<meta name="description" content="{data.bias.nameJa}の正体やメカニズムを詳しく解説。日常生活での「あるある」から具体的な活用術、歴史、関連する理論まで網羅しています。この思考のクセを理解して、より賢い判断やコミュニケーションに役立てましょう。" />
+  	<title>{title}</title>
+	<meta name="description" content={description} />
+
+	<!-- OGPの基本設定-->
+	<meta property="og:type" content="article" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogpImage} />
+    <meta property="og:url" content={ogpUrl} />
+
+	<!-- X (Twitter) -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogpImage} />
 </svelte:head>
 
 <!-- セクションのタイトル -->

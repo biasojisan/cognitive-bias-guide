@@ -1,13 +1,34 @@
 <script lang="ts">
     import SectionBreak from '$lib/components/SectionBreak.svelte';
+	import { SITE_NAME, DOMAIN } from '$lib/constants/common-metadata';
 import type { PageProps } from './$types';
 
     let { data }: PageProps = $props();
+
+    // OPG設定
+    const title = `このサイトについて | ${SITE_NAME}`;
+    const description = `「 ${SITE_NAME}」の制作背景や運営者・バイアスおじさんの想いを掲載したページです。本サイトはAIを活用して情報を収集しており、「情報を疑うこと」を通じて認知バイアス対策の第一歩を体験していただくことを目的としています。`;
+    const ogpUrl = `${DOMAIN}`;
+    const ogpImage = `${DOMAIN}/images/hero.webp`;
+
 </script>
 
 <svelte:head>
-  	<title>このサイトについて | 認知バイアス非公式図鑑</title>
-    <meta name="description" content="「認知バイアス非公式図鑑」の制作背景や運営者・バイアスおじさんの想いを掲載したページです。本サイトはAIを活用して情報を収集しており、「情報を疑うこと」を通じて認知バイアス対策の第一歩を体験していただくことを目的としています。" />
+  	<title>{title}</title>
+	<meta name="description" content={description} />
+
+	<!-- OGPの基本設定-->
+	<meta property="og:type" content="article" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogpImage} />
+    <meta property="og:url" content={ogpUrl} />
+
+	<!-- X (Twitter) -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogpImage} />
 </svelte:head>
 
 <article class="mx-auto max-w-prose px-5 py-10 text-gray-800 leading-relaxed">
@@ -64,7 +85,31 @@ import type { PageProps } from './$types';
         </p>
     </section>
 
-        <SectionBreak />
+    <SectionBreak />
+
+    <!-- プライバシーポリシー -->
+    <section id="privacy-policy" class="my-6 p-5 bg-gray-100 rounded-lg leading-relaxed text-gray-600">
+        <h2 class="font-bold mb-2 text-gray-800 text-xl">プライバシーポリシー</h2>
+        <div class="space-y-4 text-sm">
+            <div>
+                <h3 class="font-bold text-gray-700">アクセス<ruby>解析<rt>かいせき</rt></ruby>ツールについて</h3>
+                <p>
+                    <ruby>本<rt>ほん</rt></ruby>サイトでは、Googleによるアクセス<ruby>解析<rt>かいせき</rt></ruby>ツール「Googleアナリティクス」を<ruby>利用<rt>りよう</rt></ruby>しています。このGoogleアナリティクスはデータの<ruby>収集<rt>しゅうしゅう</rt></ruby>のためにCookie（クッキー）を<ruby>使用<rt>しよう</rt></ruby>しています。このデータは<ruby>匿名<rt>とくめい</rt></ruby>で<ruby>収集<rt>しゅうしゅう</rt></ruby>されており、<ruby>個人<rt>こじん</rt></ruby>を<ruby>特定<rt>とくてい</rt></ruby>するものではありません。
+                </p>
+                <p class="mt-1">
+                    この<ruby>機能<rt>きのう</rt></ruby>はCookieを<ruby>無効<rt>むこう</rt></ruby>にすることで<ruby>収集<rt>しゅうしゅう</rt></ruby>を<ruby>拒否<rt>きょひ</rt></ruby>することが<ruby>出来<rt>でき</rt></ruby>ますので、お<ruby>使<rt>つかい</rt></ruby>のブラウザの<ruby>設定<rt>せってい</rt></ruby>をご<ruby>確認<rt>かくにん</rt></ruby>ください。この<ruby>規約<rt>きやく</rt></ruby>に<ruby>関<rt>かん</rt></ruby>する<ruby>詳細<rt>しょうさい</rt></ruby>は<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" target="_blank" rel="noopener noreferrer" class="text-blue-500 underline">Googleアナリティクス<ruby>利用<rt>りよう</rt></ruby><ruby>規約<rt>きやく</rt></ruby></a>を<ruby>参照<rt>さんしょう</rt></ruby>してください。
+                </p>
+            </div>
+            <div>
+                <h3 class="font-bold text-gray-700"><ruby>著作権<rt>ちょさくけん</rt></ruby>・<ruby>肖像権<rt>しょうぞうけん</rt></ruby>について</h3>
+                <p>
+                    <ruby>本<rt>ほん</rt></ruby>サイトに<ruby>掲載<rt>けいさい</rt></ruby>されているすべてのコンテンツ（<ruby>文章<rt>ぶんしょう</rt></ruby>、<ruby>画像<rt>がぞう</rt></ruby>など）の<ruby>著作<rt>ちょさく</rt></ruby><ruby>権<rt>けん</rt></ruby>・<ruby>肖像<rt>しょうぞう</rt></ruby><ruby>権<rt>けん</rt></ruby>などは、<ruby>運営<rt>うんえい</rt></ruby><ruby>者<rt>しゃ</rt></ruby>または<ruby>各<rt>かく</rt></ruby><ruby>権利<rt>けんり</rt></ruby><ruby>所有<rt>しょゆう</rt></ruby><ruby>者<rt>しゃ</rt></ruby>に<ruby>帰属<rt>きぞく</rt></ruby>します。<ruby>許可<rt>きょか</rt></ruby>なく<ruby>無断<rt>むだん</rt></ruby><ruby>転載<rt>てんさい</rt></ruby>することを<ruby>禁止<rt>きんし</rt></ruby>します。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <SectionBreak />
 
     <section class="my-6">
         <h2 class="text-xl font-bold mb-4 flex items-center">
