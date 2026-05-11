@@ -15,10 +15,18 @@ export const GET: RequestHandler = async () => {
     // 固定ページと動的ページを組み合わせてXMLを作成
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://sitemaps.org">
-  <url><loc>${DOMAIN}/</loc><priority>1.0</priority></url>
-  <url><loc>${DOMAIN}/bias</loc><priority>0.8</priority></url>
-  <url><loc>${DOMAIN}/about</loc><priority>0.5</priority></url>
-  ${biases
+  <url>
+    <loc>${DOMAIN}/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>${DOMAIN}/bias</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${DOMAIN}/about</loc>
+    <priority>0.5</priority>
+  </url>${biases
     .map((bias) => `
   <url>
     <loc>${DOMAIN}/bias/${bias.id}</loc>
