@@ -7,7 +7,7 @@ import type { PageProps } from './$types';
 
     // OPG設定
     const title = `このサイトについて | ${SITE_NAME}`;
-    const description = `「 ${SITE_NAME}」の制作背景や運営者・バイアスおじさんの想いを掲載したページです。本サイトはAIを活用して情報を収集しており、「情報を疑うこと」を通じて認知バイアス対策の第一歩を体験していただくことを目的としています。`;
+    const description = `「 ${SITE_NAME}」の制作背景や運営者の想いを掲載したページです。本サイトはAIを活用して情報を収集しており、「情報を疑うこと」を通じて認知バイアス対策の第一歩を体験していただくことを目的としています。`;
     const ogpUrl = `${DOMAIN}`;
     const ogpImage = `${DOMAIN}/images/hero.webp`;
 

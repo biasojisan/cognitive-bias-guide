@@ -39,7 +39,7 @@
 
 	 // OPG設定
 	 const title = `${stripRubyTags(data.bias.nameJa)} | ${SITE_NAME}`;
-	 const description = `${data.bias.nameJa}の正体やメカニズムを詳しく解説。日常生活での「あるある」から具体的な活用術、歴史、関連する理論まで網羅しています。この思考のクセを理解して、より賢い判断やコミュニケーションに役立てましょう。`;
+	 const description = `${stripRubyTags(data.bias.nameJa)}の正体やメカニズムを詳しく解説。日常生活での「あるある」から具体的な活用術、歴史、関連する理論まで網羅しています。この思考のクセを理解して、より賢い判断やコミュニケーションに役立てましょう。`;
 	 const ogpUrl = `${DOMAIN}/bias/${data.bias.id}`;
 	 const ogpImage = `${DOMAIN}/images/${data.bias.thumbnail}`;
 
