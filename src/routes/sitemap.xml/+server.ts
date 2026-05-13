@@ -14,7 +14,7 @@ export const GET: RequestHandler = async () => {
 
     // 固定ページと動的ページを組み合わせてXMLを作成
     const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://sitemaps.org">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${DOMAIN}/</loc>
     <priority>1.0</priority>
