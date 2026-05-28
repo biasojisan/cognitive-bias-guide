@@ -94,7 +94,7 @@
         <div  class="mt-20">
             <img src="/images/automatic_defense.webp" alt="ヒーローイラスト" class="block w-2xl h-auto mx-auto" />
             <div class="mt-4">
-                <ruby>長<rt>なが</rt></ruby>い<ruby>年月<rt>ねんげつ</rt></ruby>をかけて、<ruby>無意識<rt>むいしき</rt></ruby>に<ruby>発動<rt>はつどう</rt></ruby>するようになりました。
+                <ruby>長<rt>なが</rt></ruby>い<ruby>年月<rt>ねんげつ</rt></ruby>をかけて、<ruby>無意識<rt>むいしき</rt></ruby>に<ruby>発動<rt>はつどう</rt></ruby>できるようになりました。
             </div>
         </div>
         <div class="mt-20">

@@ -148,7 +148,7 @@ import type { PageProps } from './$types';
 			<div class="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-sky-100">
 				<h3 class="text-xl font-bold text-sky-800 mb-3">2. <ruby>危<rt>き</rt></ruby><ruby>険<rt>けん</rt></ruby>に<ruby>素<rt>す</rt></ruby><ruby>早<rt>ばや</rt></ruby>く<ruby>対<rt>たい</rt></ruby><ruby>処<rt>しょ</rt></ruby>したいから</h3>
 				<p class="text-gray-600 text-sm">
-					<ruby>昔<rt>むかし</rt></ruby>の<ruby>環<rt>かん</rt></ruby><ruby>境<rt>きょう</rt></ruby>には、<ruby>死<rt>し</rt></ruby>に<ruby>直<rt>ちょく</rt></ruby><ruby>結<rt>けつ</rt></ruby>する<ruby>危<rt>き</rt></ruby><ruby>険<rt>けん</rt></ruby>がたくさんありました。<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>危<rt>き</rt></ruby><ruby>機<rt>き</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して「<ruby>過<rt>か</rt></ruby><ruby>去<rt>こ</rt></ruby>の<ruby>記<rt>き</rt></ruby><ruby>憶<rt>おく</rt></ruby>や<ruby>感<rt>かん</rt></ruby><ruby>情<rt>じょう</rt></ruby>」をヒントに、<ruby>瞬<rt>しゅん</rt></ruby><ruby>時<rt>じ</rt></ruby>に<ruby>反<rt>はん</rt></ruby><ruby>応<rt>のう</rt></ruby>できる<ruby>個<rt>こ</rt></ruby><ruby>体<rt>たい</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>が、より<ruby>多<rt>おお</rt></ruby>く<ruby>生<rt>い</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>ることができました。
+					<ruby>昔<rt>むかし</rt></ruby>の<ruby>環<rt>かん</rt></ruby><ruby>境<rt>きょう</rt></ruby>には、<ruby>死<rt>し</rt></ruby>に<ruby>直<rt>ちょっ</rt></ruby><ruby>結<rt>けつ</rt></ruby>する<ruby>危<rt>き</rt></ruby><ruby>険<rt>けん</rt></ruby>がたくさんありました。<ruby>目<rt>め</rt></ruby>の<ruby>前<rt>まえ</rt></ruby>の<ruby>危<rt>き</rt></ruby><ruby>機<rt>き</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して「<ruby>過<rt>か</rt></ruby><ruby>去<rt>こ</rt></ruby>の<ruby>記<rt>き</rt></ruby><ruby>憶<rt>おく</rt></ruby>や<ruby>感<rt>かん</rt></ruby><ruby>情<rt>じょう</rt></ruby>」をヒントに、<ruby>瞬<rt>しゅん</rt></ruby><ruby>時<rt>じ</rt></ruby>に<ruby>反<rt>はん</rt></ruby><ruby>応<rt>のう</rt></ruby>できる<ruby>個<rt>こ</rt></ruby><ruby>体<rt>たい</rt></ruby>の<ruby>方<rt>ほう</rt></ruby>が、より<ruby>多<rt>おお</rt></ruby>く<ruby>生<rt>い</rt></ruby>き<ruby>残<rt>のこ</rt></ruby>ることができました。
 				</p>
 				<img src="/images/running_away.webp" alt="茂みに潜む猛獣から逃げる原始人の女の子の画像" />
 			</div>
@@ -316,7 +316,7 @@ import type { PageProps } from './$types';
 			{#each biasMeasures as biasMeasure}
 				<AccordionItem class="p-4">
 					{#snippet header()}
-						<span class="text-lg font-bold flex items-center gap-2 text-indigo-900">
+						<span class="text-lg font-bold items-center gap-2 text-indigo-900">
 							{@html biasMeasure.title}
 						</span>
 					{/snippet}

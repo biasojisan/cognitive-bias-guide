@@ -35,13 +35,13 @@
 		history: { link: 'history', title: '<ruby>歴史<rt>れきし</rt></ruby>' },
 		theory: { link: 'theory', title: '<ruby>理論<rt>りろん</rt></ruby>と<ruby>技法<rt>ぎほう</rt></ruby>' },
 		bias: { link: 'bias', title: 'バイアス<ruby>四天王<rt>してんのう</rt></ruby>' }
-	 } as const;
+	} as const;
 
-	 // OPG設定
-	 const title = `${stripRubyTags(data.bias.nameJa)} | ${SITE_NAME}`;
-	 const description = `${stripRubyTags(data.bias.nameJa)}の正体やメカニズムを詳しく解説。日常生活での「あるある」から具体的な活用術、歴史、関連する理論まで網羅しています。この思考のクセを理解して、より賢い判断やコミュニケーションに役立てましょう。`;
-	 const ogpUrl = `${DOMAIN}/bias/${data.bias.id}`;
-	 const ogpImage = `${DOMAIN}/images/${data.bias.thumbnail}`;
+	// OPG設定
+	const title = $derived(`${stripRubyTags(data.bias.nameJa)} | ${SITE_NAME}`);
+	const description = $derived(`${stripRubyTags(data.bias.nameJa)}の正体やメカニズムを詳しく解説。日常生活での「あるある」から具体的な活用術、歴史、関連する理論まで網羅しています。この思考のクセを理解して、より賢い判断やコミュニケーションに役立てましょう。`);
+	const ogpUrl = $derived(`${DOMAIN}/bias/${data.bias.id}`);
+	const ogpImage = $derived(`${DOMAIN}/images/${data.bias.thumbnail}`);
 
 </script>
 
@@ -361,7 +361,7 @@
 									<div class="mb-3 flex items-center gap-2 text-blue-700">
 										🛡
 										<span class="font-bold tracking-wider">
-                                            <ruby>具体的<rt>ぐたいてき</rt></ruby>な<ruby>対策<rt>たいさく</rt></ruby>
+                                            <ruby>具体的<rt>ぐたいてき</rt></ruby>な<ruby>方法<rt>ほうほう</rt></ruby>
                                         </span>
 									</div>
 									<div class="prose max-w-none leading-relaxed text-slate-700 prose-slate">

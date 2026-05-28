@@ -76,7 +76,7 @@
 		<!-- 矢印 -->
 		{@const arrowX1 = headX + headR + 10}
 		{@const arrowY1 = headY - headR + (bodyY2 + legH - (headY - headR)) / 2}
-		{@const arrowX2 = arrowX1 + 160}
+		{@const arrowX2 = arrowX1 + 140}
 		<DoubleHeadedArrow
 			x1={arrowX1}
 			y1={arrowY1}
@@ -98,7 +98,7 @@
 
 		<!-- 目指していた目的 -->
 		{@const targetX = arrowX2 + 5}
-		{@const targetW = 100}
+		{@const targetW = 150}
 		{@const targetH = 30}
 		{@const targetTextX = targetX + targetW / 2}
 		{@const targetY = arrowY1 - targetH / 2}
