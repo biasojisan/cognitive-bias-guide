@@ -23,114 +23,114 @@ export const X_AXIS_METADATA: Record<number, AxisMetadata> = {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
 		label: '<ruby>感情的<rt>かんじょうてき</rt></ruby>フィルタリング',
 		description:
-			'<ruby>理屈<rt>りくつ</rt></ruby>よりも<ruby>先<rt>さき</rt></ruby>に「<ruby>好き<rt>す</rt></ruby>/<ruby>嫌い<rt>きら</rt></ruby>」「<ruby>快<rt>かい</rt></ruby>/<ruby>不快<rt>ふかい</rt></ruby>」という<ruby>強い<rt>つよ</rt></ruby><ruby>感情<rt>かんじょう</rt></ruby>が<ruby>湧き<rt>わ</rt></ruby>、<ruby>脳<rt>のう</rt></ruby>の<ruby>思考<rt>しこう</rt></ruby>を<ruby>即座<rt>そくざ</rt></ruby>に<ruby>決定<rt>けってい</rt></ruby>づける。'
+			'<ruby>理屈<rt>りくつ</rt></ruby>よりも<ruby>先<rt>さき</rt></ruby>に「<ruby>好<rt>す</rt></ruby>き/<ruby>嫌<rt>きら</rt></ruby>い」「<ruby>快<rt>かい</rt></ruby>/<ruby>不快<rt>ふかい</rt></ruby>」という<ruby>強<rt>つよ</rt></ruby>い<ruby>感情<rt>かんじょう</rt></ruby>が<ruby>湧<rt>わ</rt></ruby>き、<ruby>脳<rt>のう</rt></ruby>の<ruby>思考<rt>しこう</rt></ruby>を<ruby>即座<rt>そくざ</rt></ruby>に<ruby>決定<rt>けってい</rt></ruby>づける。'
 	},
 	[-8]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
 		label: '<ruby>本能的<rt>ほんのうてき</rt></ruby>なパターン<ruby>認識<rt>にんしき</rt></ruby>',
 		description:
-			'<ruby>目立つ<rt>めだ</rt></ruby><ruby>特徴<rt>とくちょう</rt></ruby>（<ruby>権威<rt>けんい</rt></ruby>や<ruby>外見<rt>がいけん</rt></ruby>）や「<ruby>未知<rt>みち</rt></ruby>への<ruby>恐怖<rt>きょうふ</rt></ruby>」に<ruby>対し<rt>たい</rt></ruby>、<ruby>無意識<rt>むいしき</rt></ruby>に<ruby>反応<rt>はんのう</rt></ruby>して<ruby>思考<rt>しこう</rt></ruby>をロックする。'
+			'<ruby>目<rt>め</rt></ruby><ruby>立<rt>だ</rt></ruby>つ<ruby>特徴<rt>とくちょう</rt></ruby>（<ruby>権威<rt>けんい</rt></ruby>や<ruby>外見<rt>がいけん</rt></ruby>）や「<ruby>未知<rt>みち</rt></ruby>への<ruby>恐怖<rt>きょうふ</rt></ruby>」に<ruby>対<rt>たい</rt></ruby>し、<ruby>無意識<rt>むいしき</rt></ruby>に<ruby>反応<rt>はんのう</rt></ruby>して<ruby>思考<rt>しこう</rt></ruby>をロックする。'
 	},
 	[-7]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
 		label: '<ruby>外部<rt>がいぶ</rt></ruby>シグナルへの<ruby>自動同調<rt>じどうどうちょう</rt></ruby>',
 		description:
-			'<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>見た<rt>み</rt></ruby><ruby>数字<rt>すうじ</rt></ruby>や、<ruby>他者<rt>たしゃ</rt></ruby>の<ruby>群れ<rt>む</rt></ruby>（トレンド）など、<ruby>外部<rt>がいぶ</rt></ruby>の<ruby>分かり<rt>わ</rt></ruby>やすいシグナルに<ruby>自動<rt>じどう</rt></ruby>で<ruby>乗っかる<rt>の</rt></ruby>。'
+			'<ruby>最初<rt>さいしょ</rt></ruby>に<ruby>見<rt>み</rt></ruby>た<ruby>数字<rt>すうじ</rt></ruby>や、<ruby>他者<rt>たしゃ</rt></ruby>の<ruby>群<rt>む</rt></ruby>れ（トレンド）など、<ruby>外部<rt>がいぶ</rt></ruby>の<ruby>分<rt>わ</rt></ruby>かりやすいシグナルに<ruby>自動<rt>じどう</rt></ruby>で<ruby>乗<rt>の</rt></ruby>っかる。'
 	},
 	[-6]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
-		label: '<ruby>判断<rt>はんだん</rt></ruby>の<ruby>省略<rt>しょうりゃく</rt></ruby>・<ruby>手抜き<rt>てぬき</rt></ruby>',
+		label: '<ruby>判断<rt>はんだん</rt></ruby>の<ruby>省略<rt>しょうりゃく</rt></ruby>・<ruby>手<rt>て</rt></ruby><ruby>抜<rt>ぬ</rt></ruby>き',
 		description:
-			' <ruby>記憶<rt>きおく</rt></ruby>から<ruby>引き出し<rt>ひきだ</rt></ruby>やすいものだけを<ruby>使ったり<rt>つか</rt></ruby>、「やらない<ruby>方<rt>ほう</rt></ruby>がマシ」と<ruby>判断<rt>はんだん</rt></ruby>を<ruby>打ち切ったり<rt>うちき</rt></ruby>する。'
+			' <ruby>記憶<rt>きおく</rt></ruby>から<ruby>引<rt>ひ</rt></ruby>き<ruby>出<rt>だ</rt></ruby>しやすいものだけを<ruby>使<rt>つか</rt></ruby>ったり、「やらない<ruby>方<rt>ほう</rt></ruby>がマシ」と<ruby>判断<rt>はんだん</rt></ruby>を<ruby>打<rt>う</rt></ruby>ち<ruby>切<rt>き</rt></ruby>ったりする。'
 	},
 	[-5]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
-		label: '<ruby>表面的な<rt>ひょうめんてきな</rt></ruby><ruby>条件反射<rt>じょうけんはんしゃ</rt></ruby>',
-		description: '「80%<ruby>成功<rt>せいこう</rt></ruby>」のような<ruby>表現<rt>ひょうげん</rt></ruby>の<ruby>表面的な<rt>ひょうめんてきな</rt></ruby><ruby>違い<rt>ちが</rt></ruby>だけで、<ruby>直感的<rt>ちょっかんてき</rt></ruby>に<ruby>飛びつく<rt>と</rt></ruby>。'
+		label: '<ruby>表面的<rt>ひょうめんてき</rt></ruby>な<ruby>条件反射<rt>じょうけんはんしゃ</rt></ruby>',
+		description: '「80%<ruby>成功<rt>せいこう</rt></ruby>」のような<ruby>表現<rt>ひょうげん</rt></ruby>の<ruby>表面的<rt>ひょうめんてき</rt></ruby>な<ruby>違<rt>ちが</rt></ruby>いだけで、<ruby>直感的<rt>ちょっかんてき</rt></ruby>に<ruby>飛<rt>と</rt></ruby>びつく。'
 	},
 	[-4]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
-		label: '<ruby>結果論<rt>けっかろん</rt></ruby>によるつじつま<ruby>合わせ<rt>あ</rt></ruby>',
+		label: '<ruby>結果論<rt>けっかろん</rt></ruby>によるつじつま<ruby>合<rt>あ</rt></ruby>わせ',
 		description:
-			' <ruby>結果<rt>けっか</rt></ruby>を<ruby>知って<rt>し</rt></ruby>から「<ruby>最初<rt>さいしょ</rt></ruby>からわかっていた」「<ruby>成功例<rt>せいこうれい</rt></ruby>が<ruby>全て<rt>すべて</rt></ruby>だ」と、<ruby>脳<rt>のう</rt></ruby>が<ruby>瞬時に<rt>しゅんじに</rt></ruby><ruby>記憶<rt>きおく</rt></ruby>や<ruby>認識<rt>にんしき</rt></ruby>を<ruby>上書き<rt>うわが</rt></ruby>し、<ruby>思考<rt>しこう</rt></ruby>を<ruby>終える<rt>お</rt></ruby>。'
+			' <ruby>結果<rt>けっか</rt></ruby>を<ruby>知<rt>し</rt></ruby>ってから「<ruby>最初<rt>さいしょ</rt></ruby>からわかっていた」「<ruby>成功例<rt>せいこうれい</rt></ruby>が<ruby>全<rt>すべ</rt></ruby>てだ」と、<ruby>脳<rt>のう</rt></ruby>が<ruby>瞬時<rt>しゅんじ</rt></ruby>に<ruby>記憶<rt>きおく</rt></ruby>や<ruby>認識<rt>にんしき</rt></ruby>を<ruby>上書<rt>うわが</rt></ruby>きし、<ruby>思考<rt>しこう</rt></ruby>を<ruby>終<rt>お</rt></ruby>える。'
 	},
 	[-3]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
 		label: '<ruby>大雑把<rt>おおざっぱ</rt></ruby>な<ruby>推論<rt>すいろん</rt></ruby>',
-		description: ' <ruby>過去<rt>かこ</rt></ruby>の<ruby>類似経験<rt>るいじけいけん</rt></ruby>から「おそらくこうだろう」と<ruby>推測<rt>すいそく</rt></ruby>し、それ<ruby>以上<rt>いじょう</rt></ruby>の<ruby>深い<rt>ふか</rt></ruby><ruby>思考<rt>しこう</rt></ruby>を<ruby>打ち切る<rt>うちき</rt></ruby>。'
+		description: ' <ruby>過去<rt>かこ</rt></ruby>の<ruby>類似経験<rt>るいじけいけん</rt></ruby>から「おそらくこうだろう」と<ruby>推測<rt>すいそく</rt></ruby>し、それ<ruby>以上<rt>いじょう</rt></ruby>の<ruby>深<rt>ふか</rt></ruby>い<ruby>思考<rt>しこう</rt></ruby>を<ruby>打<rt>う</rt></ruby>ち<ruby>切<rt>き</rt></ruby>る。'
 	},
 	[-2]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
-		label: '<ruby>直感<rt>ちょっかん</rt></ruby>への<ruby>軽い<rt>かる</rt></ruby><ruby>疑い<rt>うたが</rt></ruby>',
-		description: ' <ruby>直感的<rt>ちょっかんてき</rt></ruby>な<ruby>違和感<rt>いわかん</rt></ruby>に<ruby>対し<rt>たい</rt></ruby>、<ruby>少し<rt>すこ</rt></ruby>だけ「<ruby>本当<rt>ほんとう</rt></ruby>にそうか？」と<ruby>論理的<rt>ろんりてき</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>しようとする。'
+		label: '<ruby>直感<rt>ちょっかん</rt></ruby>への<ruby>軽<rt>かる</rt></ruby>い<ruby>疑<rt>うたが</rt></ruby>い',
+		description: ' <ruby>直感的<rt>ちょっかんてき</rt></ruby>な<ruby>違和感<rt>いわかん</rt></ruby>に<ruby>対<rt>たい</rt></ruby>し、<ruby>少<rt>すこ</rt></ruby>しだけ「<ruby>本当<rt>ほんとう</rt></ruby>にそうか？」と<ruby>論理的<rt>ろんりてき</rt></ruby>に<ruby>確認<rt>かくにん</rt></ruby>しようとする。'
 	},
 	[-1]: {
 		zone: '<ruby>直感的<rt>ちょっかんてき</rt></ruby>',
 		label: '<ruby>事実<rt>じじつ</rt></ruby>の<ruby>単純分類<rt>たんじゅんぶんるい</rt></ruby>',
-		description: ' <ruby>事実関係<rt>じじつかんけい</rt></ruby>をそのまま<ruby>受け止め<rt>う</rt></ruby>、ワーキングメモリを<ruby>軽く<rt>かる</rt></ruby><ruby>稼働<rt>かどう</rt></ruby>させて<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>整理<rt>せいり</rt></ruby>する。'
+		description: ' <ruby>事実関係<rt>じじつかんけい</rt></ruby>をそのまま<ruby>受<rt>う</rt></ruby>け<ruby>止<rt>と</rt></ruby>め、ワーキングメモリを<ruby>軽<rt>かる</rt></ruby>く<ruby>稼働<rt>かどう</rt></ruby>させて<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>整理<rt>せいり</rt></ruby>する。'
 	},
 	[0]: {
 		zone: 'フラット',
 		label: '<ruby>完全<rt>かんぜん</rt></ruby>ニュートラル',
 		description:
-			'バイアスがかかっていない、<ruby>事実<rt>じじつ</rt></ruby>を<ruby>客観的<rt>きゃっかんてき</rt></ruby>・フラットに<ruby>見つめ<rt>み</rt></ruby>、<ruby>等身大<rt>とうしんだい</rt></ruby>の<ruby>認知<rt>にんち</rt></ruby>をしている<ruby>理想的な<rt>りそうてきな</rt></ruby>ゼロ<ruby>地点<rt>ちてん</rt></ruby>。'
+			'バイアスがかかっていない、<ruby>事実<rt>じじつ</rt></ruby>を<ruby>客観的<rt>きゃっかんてき</rt></ruby>・フラットに<ruby>見<rt>み</rt></ruby>つめ、<ruby>等身大<rt>とうしんだい</rt></ruby>の<ruby>認知<rt>にんち</rt></ruby>をしている<ruby>理想的<rt>りそうてき</rt></ruby>なゼロ<ruby>地点<rt>ちてん</rt></ruby>。'
 	},
 	[1]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: '<ruby>意図的な<rt>いとてきな</rt></ruby><ruby>問い立て<rt>といだ</rt></ruby>',
+		label: '<ruby>意図的<rt>いとてき</rt></ruby>な<ruby>問<rt>と</rt></ruby>い<ruby>立<rt>だ</rt></ruby>て',
 		description:
-			'<ruby>事実<rt>じじつ</rt></ruby>に<ruby>対して<rt>たい</rt></ruby>「なぜこうなったのか？」「<ruby>他<rt>ほか</rt></ruby>の<ruby>可能性<rt>かのうせい</rt></ruby>はないか？」と<ruby>意図的<rt>いとてき</rt></ruby>に<ruby>脳<rt>のう</rt></ruby>のエンジンをかけ<ruby>始める<rt>はじ</rt></ruby>。'
+			'<ruby>事実<rt>じじつ</rt></ruby>に<ruby>対<rt>たい</rt></ruby>して「なぜこうなったのか？」「<ruby>他<rt>ほか</rt></ruby>の<ruby>可能性<rt>かのうせい</rt></ruby>はないか？」と<ruby>意図的<rt>いとてき</rt></ruby>に<ruby>脳<rt>のう</rt></ruby>のエンジンをかけ<ruby>始<rt>はじ</rt></ruby>める。'
 	},
 	[2]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
 		label: '<ruby>論理的推論<rt>ろんりてきすいろん</rt></ruby>のスタート',
-		description: ' <ruby>情報<rt>じょうほう</rt></ruby>を<ruby>構造化<rt>こうぞうか</rt></ruby>し、<ruby>因果関係<rt>いんがかんけい</rt></ruby>を<ruby>解き明かそ<rt>ときあか</rt></ruby>うと<ruby>思考<rt>しこう</rt></ruby>を<ruby>深め<rt>ふか</rt></ruby><ruby>始める<rt>はじ</rt></ruby>。'
+		description: ' <ruby>情報<rt>じょうほう</rt></ruby>を<ruby>構造化<rt>こうぞうか</rt></ruby>し、<ruby>因果関係<rt>いんがかんけい</rt></ruby>を<ruby>解<rt>と</rt></ruby>き<ruby>明<rt>あ</rt></ruby>かそうと<ruby>思考<rt>しこう</rt></ruby>を<ruby>深<rt>ふか</rt></ruby>め<ruby>始<rt>はじ</rt></ruby>める。'
 	},
 	[3]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
 		label: '<ruby>仮説<rt>かせつ</rt></ruby>への<ruby>無意識<rt>むいしき</rt></ruby>の<ruby>加点<rt>かてん</rt></ruby>',
-		description: '<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>する<ruby>中<rt>なか</rt></ruby>で、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>仮説<rt>かせつ</rt></ruby>や<ruby>前提<rt>ぜんてい</rt></ruby>に<ruby>合う<rt>あ</rt></ruby>ものを<ruby>少し<rt>すこ</rt></ruby>ずつ<ruby>高く<rt>たか</rt></ruby><ruby>評価<rt>ひょうか</rt></ruby>し<ruby>始める<rt>はじ</rt></ruby>。'
+		description: '<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>分析<rt>ぶんせき</rt></ruby>する<ruby>中<rt>なか</rt></ruby>で、<ruby>自分<rt>じぶん</rt></ruby>の<ruby>仮説<rt>かせつ</rt></ruby>や<ruby>前提<rt>ぜんてい</rt></ruby>に<ruby>合<rt>あ</rt></ruby>うものを<ruby>少<rt>すこ</rt></ruby>しずつ<ruby>高<rt>たか</rt></ruby>く<ruby>評価<rt>ひょうか</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>める。'
 	},
 	[4]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: '<ruby>過剰な<rt>かじょうな</rt></ruby><ruby>解釈<rt>かいしゃく</rt></ruby>・<ruby>専門性<rt>せんもんせい</rt></ruby>の<ruby>罠<rt>わな</rt></ruby>',
-		description: ' <ruby>自分<rt>じぶん</rt></ruby>の<ruby>持つ<rt>も</rt></ruby><ruby>知識<rt>ちしき</rt></ruby>や<ruby>専門性<rt>せんもんせい</rt></ruby>をベースに、<ruby>物事<rt>ものごと</rt></ruby>を<ruby>複雑<rt>ふくざつ</rt></ruby>に<ruby>解釈<rt>かいしゃく</rt></ruby>しすぎる。'
+		label: '<ruby>過剰<rt>かじょう</rt></ruby>な<ruby>解釈<rt>かいしゃく</rt></ruby>・<ruby>専門性<rt>せんもんせい</rt></ruby>の<ruby>罠<rt>わな</rt></ruby>',
+		description: ' <ruby>自分<rt>じぶん</rt></ruby>の<ruby>持<rt>も</rt></ruby>つ<ruby>知識<rt>ちしき</rt></ruby>や<ruby>専門性<rt>せんもんせい</rt></ruby>をベースに、<ruby>物事<rt>ものごと</rt></ruby>を<ruby>複雑<rt>ふくざつ</rt></ruby>に<ruby>解釈<rt>かいしゃく</rt></ruby>しすぎる。'
 	},
 	[5]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: 'もっともらしい<ruby>理由<rt>りゆう</rt></ruby>のひねり<ruby>出し<rt>だ</rt></ruby>',
+		label: 'もっともらしい<ruby>理由<rt>りゆう</rt></ruby>のひねり<ruby>出<rt>だ</rt></ruby>し',
 		description:
-			' <ruby>因果関係<rt>いんがかんけい</rt></ruby>を<ruby>論理的<rt>ろんりてき</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>しようとして、「<ruby>相手<rt>あいて</rt></ruby>の<ruby>性格<rt>せいかく</rt></ruby>のせいだ」「この<ruby>計画<rt>けいかく</rt></ruby>は<ruby>完璧<rt>かんぺき</rt></ruby>だ」と、<ruby>頭<rt>あたま</rt></ruby>を<ruby>使って<rt>つか</rt></ruby><ruby>理由<rt>りゆう</rt></ruby>を<ruby>作り出す<rt>つくりだ</rt></ruby>。'
+			' <ruby>因果関係<rt>いんがかんけい</rt></ruby>を<ruby>論理的<rt>ろんりてき</rt></ruby>に<ruby>説明<rt>せつめい</rt></ruby>しようとして、「<ruby>相手<rt>あいて</rt></ruby>の<ruby>性格<rt>せいかく</rt></ruby>のせいだ」「この<ruby>計画<rt>けいかく</rt></ruby>は<ruby>完璧<rt>かんぺき</rt></ruby>だ」と、<ruby>頭<rt>あたま</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>理由<rt>りゆう</rt></ruby>を<ruby>作<rt>つく</rt></ruby>り<ruby>出<rt>だ</rt></ruby>す。'
 	},
 	[6]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
 		label: '<ruby>自己正当化<rt>じこせいとうか</rt></ruby>の<ruby>論理補強<rt>ろんりほきょう</rt></ruby>',
 		description:
-			' <ruby>自分<rt>じぶん</rt></ruby>が<ruby>立てた<rt>た</rt></ruby><ruby>仮説<rt>かせつ</rt></ruby>や<ruby>過去<rt>かこ</rt></ruby>の<ruby>決定<rt>けってい</rt></ruby>が<ruby>正しい<rt>ただ</rt></ruby>ことを<ruby>証明<rt>しょうめい</rt></ruby>するために、<ruby>脳<rt>のう</rt></ruby>のリソースを<ruby>使って<rt>つか</rt></ruby><ruby>理論武装<rt>りろんぶそう</rt></ruby>し<ruby>始める<rt>はじ</rt></ruby>。'
+			' <ruby>自分<rt>じぶん</rt></ruby>が<ruby>立<rt>た</rt></ruby>てた<ruby>仮説<rt>かせつ</rt></ruby>や<ruby>過去<rt>かこ</rt></ruby>の<ruby>決定<rt>けってい</rt></ruby>が<ruby>正<rt>ただ</rt></ruby>しいことを<ruby>証明<rt>しょうめい</rt></ruby>するために、<ruby>脳<rt>のう</rt></ruby>のリソースを<ruby>使<rt>つか</rt></ruby>って<ruby>理論武装<rt>りろんぶそう</rt></ruby>し<ruby>始<rt>はじ</rt></ruby>める。'
 	},
 	[7]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: '<ruby>過剰な<rt>かじょうな</rt></ruby><ruby>価値づけ<rt>かち</rt></ruby>・<ruby>推論<rt>すいろん</rt></ruby>の<ruby>暴走<rt>ぼうそう</rt></ruby>',
+		label: '<ruby>過剰<rt>かじょう</rt></ruby>な<ruby>価値<rt>かち</rt></ruby>づけ・<ruby>推論<rt>すいろん</rt></ruby>の<ruby>暴走<rt>ぼうそう</rt></ruby>',
 		description:
-			'<ruby>他者<rt>たしゃ</rt></ruby>の<ruby>心理<rt>しんり</rt></ruby>を<ruby>深読み<rt>ふかよ</rt></ruby>しすぎたり、<ruby>自分<rt>じぶん</rt></ruby>が<ruby>苦労<rt>くろう</rt></ruby>して<ruby>作った<rt>つく</rt></ruby>プロセスの<ruby>価値<rt>かち</rt></ruby>を<ruby>論理的<rt>ろんりてき</rt></ruby>に<ruby>過大評価<rt>かだいひょうか</rt></ruby>する。'
+			'<ruby>他者<rt>たしゃ</rt></ruby>の<ruby>心理<rt>しんり</rt></ruby>を<ruby>深<rt>ふか</rt></ruby><ruby>読<rt>よ</rt></ruby>みしすぎたり、<ruby>自分<rt>じぶん</rt></ruby>が<ruby>苦労<rt>くろう</rt></ruby>して<ruby>作<rt>つく</rt></ruby>ったプロセスの<ruby>価値<rt>かち</rt></ruby>を<ruby>論理的<rt>ろんりてき</rt></ruby>に<ruby>過大評価<rt>かだいひょうか</rt></ruby>する。'
 	},
 	[8]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: '<ruby>投資回収<rt>とうしかいしゅう</rt></ruby>のための<ruby>精緻な<rt>せいち</rt></ruby><ruby>理論構築<rt>りろんこうちく</rt></ruby>',
+		label: '<ruby>投資回収<rt>とうしかいしゅう</rt></ruby>のための<ruby>精緻<rt>せいち</rt></ruby>な<ruby>理論構築<rt>りろんこうちく</rt></ruby>',
 		description:
-			'<ruby>過去<rt>かこ</rt></ruby>の<ruby>多大な<rt>ただい</rt></ruby><ruby>投資<rt>とうし</rt></ruby>（<ruby>金<rt>かね</rt></ruby>・<ruby>時間<rt>じかん</rt></ruby>）や<ruby>労力<rt>ろうりょく</rt></ruby>を<ruby>正当化<rt>せいとうか</rt></ruby>するため、<ruby>執念深く<rt>しゅうねんぶか</rt></ruby>データを<ruby>集め<rt>あつ</rt></ruby>、<ruby>精緻な<rt>せいち</rt></ruby>シミュレーションを<ruby>構築<rt>こうちく</rt></ruby>する。'
+			'<ruby>過去<rt>かこ</rt></ruby>の<ruby>多大<rt>ただい</rt></ruby>な<ruby>投資<rt>とうし</rt></ruby>（<ruby>金<rt>かね</rt></ruby>・<ruby>時間<rt>じかん</rt></ruby>）や<ruby>労力<rt>ろうりょく</rt></ruby>を<ruby>正当化<rt>せいとうか</rt></ruby>するため、<ruby>執念<rt>しゅうねん</rt></ruby><ruby>深<rt>ぶか</rt></ruby>くデータを<ruby>集<rt>あつ</rt></ruby>め、<ruby>精緻<rt>せいち</rt></ruby>なシミュレーションを<ruby>構築<rt>こうちく</rt></ruby>する。'
 	},
 	[9]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: '<ruby>撤退<rt>てったい</rt></ruby>しないための<ruby>高度な<rt>こうど</rt></ruby><ruby>理屈<rt>りくつ</rt></ruby>こね',
+		label: '<ruby>撤退<rt>てったい</rt></ruby>しないための<ruby>高度<rt>こうど</rt></ruby>な<ruby>理屈<rt>りくつ</rt></ruby>こね',
 		description:
-			' <ruby>客観的<rt>きゃっかんてき</rt></ruby>には<ruby>破綻<rt>はたん</rt></ruby>している<ruby>状況<rt>じょうきょう</rt></ruby>でも、<ruby>複雑な<rt>ふくざつな</rt></ruby><ruby>要因<rt>よういん</rt></ruby>を<ruby>絡め合わせて<rt>から</rt></ruby>「<ruby>今<rt>いま</rt></ruby>はまだ<ruby>撤退<rt>てったい</rt></ruby>すべきでない<ruby>高度な<rt>こうどな</rt></ruby><ruby>理由<rt>りゆう</rt></ruby>」をひねり<ruby>出す<rt>だ</rt></ruby>。'
+			' <ruby>客観的<rt>きゃっかんてき</rt></ruby>には<ruby>破綻<rt>はたん</rt></ruby>している<ruby>状況<rt>じょうきょう</rt></ruby>でも、<ruby>複雑<rt>ふくざつ</rt></ruby>な<ruby>要因<rt>よういん</rt></ruby>を<ruby>絡<rt>から</rt></ruby>め<ruby>合<rt>あ</rt></ruby>わせて「<ruby>今<rt>いま</rt></ruby>はまだ<ruby>撤退<rt>てったい</rt></ruby>すべきでない<ruby>高度<rt>こうど</rt></ruby>な<ruby>理由<rt>りゆう</rt></ruby>」をひねり<ruby>出<rt>だ</rt></ruby>す。'
 	},
 	[10]: {
 		zone: '<ruby>論理的<rt>ろんりてき</rt></ruby>',
-		label: '<ruby>完璧な<rt>かんぺきな</rt></ruby><ruby>自己欺瞞<rt>じこぎまん</rt></ruby>の<ruby>完成<rt>かんせい</rt></ruby>',
+		label: '<ruby>完璧<rt>かんぺき</rt></ruby>な<ruby>自己欺瞞<rt>じこぎまん</rt></ruby>の<ruby>完成<rt>かんせい</rt></ruby>',
 		description:
-			' <ruby>完全<rt>かんぜん</rt></ruby>に<ruby>歪んだ<rt>ゆが</rt></ruby><ruby>前提<rt>ぜんてい</rt></ruby>のともとで、<ruby>完璧な<rt>かんぺきな</rt></ruby><ruby>論理的整合性<rt>ろんりてきせいごうせい</rt></ruby>を（<ruby>自分<rt>じぶん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>だけで）<ruby>作り上げて<rt>つくりあ</rt></ruby>まい、どんな<ruby>反論<rt>はんろん</rt></ruby>も<ruby>高度な<rt>こうどな</rt></ruby><ruby>理屈<rt>りくつ</rt></ruby>で<ruby>跳ね返す<rt>は</rt></ruby><ruby>究極<rt>きゅうきょく</rt></ruby>の<ruby>熟考状態<rt>じゅっこうじょうたい</rt></ruby>。'
+			' <ruby>完全<rt>かんぜん</rt></ruby>に<ruby>歪<rt>ゆが</rt></ruby>んだ<ruby>前提<rt>ぜんてい</rt></ruby>のともとで、<ruby>完璧<rt>かんぺき</rt></ruby>な<ruby>論理的整合性<rt>ろんりてきせいごうせい</rt></ruby>を（<ruby>自分<rt>じぶん</rt></ruby>の<ruby>中<rt>なか</rt></ruby>だけで）<ruby>作<rt>つく</rt></ruby>り<ruby>上<rt>あ</rt></ruby>げてまい、どんな<ruby>反論<rt>はんろん</rt></ruby>も<ruby>高度<rt>こうど</rt></ruby>な<ruby>理屈<rt>りくつ</rt></ruby>で<ruby>跳<rt>は</rt></ruby>ね<ruby>返<rt>かえ</rt></ruby>す<ruby>究極<rt>きゅうきょく</rt></ruby>の<ruby>熟考状態<rt>じゅっこうじょうたい</rt></ruby>。'
 	}
 };
 
@@ -189,12 +189,12 @@ export const Y_AXIS_METADATA: Record<number, AxisMetadata> = {
 		zone: '<ruby>情報収集<rt>じょうほうしゅうしゅう</rt></ruby>',
 		label: '<ruby>予測<rt>よそく</rt></ruby>・<ruby>推論<rt>すいろん</rt></ruby>',
 		description:
-			'<ruby>限定的<rt>げんていてき</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>から、パターンの<ruby>類似性<rt>るいじせい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>見<rt>み</rt></ruby>えない<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>埋<rt>う</rt></ruby>める。（<ruby>例<rt>れい</rt></ruby>：「<ruby>典型的な<rt>てんけいてきな</rt></ruby>パターンだからこうなるはずだ」という<ruby>思<rt>おも</rt></ruby>い<ruby>込<rt>こ</rt></ruby>み）'
+			'<ruby>限定的<rt>げんていてき</rt></ruby>な<ruby>情報<rt>じょうほう</rt></ruby>から、パターンの<ruby>類似性<rt>るいじせい</rt></ruby>を<ruby>使<rt>つか</rt></ruby>って<ruby>見<rt>み</rt></ruby>えない<ruby>部分<rt>ぶぶん</rt></ruby>を<ruby>埋<rt>う</rt></ruby>める。（<ruby>例<rt>れい</rt></ruby>：「<ruby>典型的<rt>てんけいてき</rt></ruby>なパターンだからこうなるはずだ」という<ruby>思<rt>おも</rt></ruby>い<ruby>込<rt>こ</rt></ruby>み）'
 	},
 	[-2]: {
 		zone: '<ruby>情報収集<rt>じょうほうしゅうしゅう</rt></ruby>',
 		label: '<ruby>自己完結的<rt>じこかんけつてき</rt></ruby>な<ruby>前提<rt>ぜんてい</rt></ruby>の<ruby>統合<rt>とうごう</rt></ruby>',
-		description: '<ruby>解釈<rt>かいしゃく</rt></ruby>した<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>自身<rt>じしん</rt></ruby>の<ruby>常識<rt>じょうしき</rt></ruby>と<ruby>同化<rt>どうか</rt></ruby>させ、「<ruby>他人も同じ認識のはずだ<rt>たにんもおなじにんしきのはずだ</rt></ruby>」と<ruby>信<rt>しん</rt></ruby>じ<ruby>込<rt>こ</rt></ruby>む。'
+		description: '<ruby>解釈<rt>かいしゃく</rt></ruby>した<ruby>情報<rt>じょうほう</rt></ruby>を<ruby>自身<rt>じしん</rt></ruby>の<ruby>常識<rt>じょうしき</rt></ruby>と<ruby>同化<rt>どうか</rt></ruby>させ、「<ruby>他人<rt>たにん</rt></ruby>も<ruby>同<rt>おな</rt></ruby>じ<ruby>認識<rt>にんしき</rt></ruby>のはずだ」と<ruby>信<rt>しん</rt></ruby>じ<ruby>込<rt>こ</rt></ruby>む。'
 	},
 	[-1]: {
 		zone: '<ruby>情報収集<rt>じょうほうしゅうしゅう</rt></ruby>',
@@ -291,7 +291,7 @@ export const EVALUATION_LIST: EvaluationMaster[] = [
 	{
 		rangeX: { min: -10, max: -1 },
 		rangeY: { min: -10, max: -1 },
-		nameJp: "<ruby>第<rt>だい</rt>一<rt>いっ</rt>印<rt>いん</rt>象<rt>しょう</rt></ruby>",
+		nameJp: "<ruby>第<rt>だい</rt>一<rt>いち</rt>印<rt>いん</rt>象<rt>しょう</rt></ruby>",
 		summary: "<ruby>脳<rt>のう</rt></ruby>が<ruby>省<rt>しょう</rt></ruby>エネ<ruby>状<rt>じょう</rt>態<rt>たい</rt></ruby>のまま、<ruby>情<rt>じょう</rt>報<rt>ほう</rt></ruby>の<ruby>入<rt>い</rt></ruby>り<ruby>口<rt>ぐち</rt></ruby>で<ruby>判<rt>はん</rt>断<rt>だん</rt></ruby>を<ruby>下<rt>くだ</rt></ruby>してしまう<ruby>領<rt>りょう</rt>域<rt>いき</rt></ruby>。ハロー<ruby>効<rt>こう</rt>果<rt>か</rt></ruby>やアンカリングにより、<ruby>目<rt>め</rt></ruby><ruby>立<rt>だ</rt></ruby>つ<ruby>情<rt>じょう</rt>報<rt>ほう</rt></ruby>や<ruby>初<rt>しょ</rt>期<rt>き</rt>値<rt>ち</rt></ruby>といった「<ruby>第<rt>だい</rt>一<rt>いっ</rt>印<rt>いん</rt>象<rt>しょう</rt></ruby>」が<ruby>事<rt>じ</rt>実<rt>じつ</rt></ruby>を<ruby>塗<rt>ぬ</rt></ruby>り<ruby>替<rt>か</rt></ruby>えてしまう。これは「<ruby>怠<rt>たい</rt>惰<rt>だ</rt></ruby>による<ruby>過<rt>か</rt>失<rt>しつ</rt></ruby>」であり、<ruby>意<rt>い</rt>識<rt>しき</rt></ruby><ruby>的<rt>てき</rt></ruby>にデータを<ruby>再<rt>さい</rt>確<rt>かく</rt>認<rt>にん</rt></ruby>することで<ruby>修<rt>しゅう</rt>正<rt>せい</rt></ruby><ruby>可<rt>か</rt>能<rt>のう</rt></ruby>な、<ruby>比<rt>ひ</rt>較<rt>かく</rt>的<rt>てき</rt></ruby><ruby>軽<rt>けい</rt>微<rt>び</rt></ruby>なバイアス。"
 	},
 	{

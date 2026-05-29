@@ -582,7 +582,7 @@
 								class="absolute top-0 -left-[9px] h-4 w-4 rounded-full bg-orange-400 shadow-sm"
 							></div>
 							<h3 class="mb-2 flex items-center text-lg font-bold text-orange-900">
-								<span class="mr-2">04. <ruby>判断<rt>はんだん</rt></ruby></span>
+								<span class="mr-2">04. <ruby>反応<rt>はんのう</rt></ruby></span>
 							</h3>
 							<div
 								class="rounded-2xl border border-orange-100 bg-white p-4 shadow-sm ring-1 ring-orange-200"
